@@ -6,7 +6,9 @@ This Project consists of 4 basic components:
     In this, we will be using React App, with of HTML, CSS and Javascript included.
     We will be adding Buying, Selling and Renting feature into this webapp.
     Also comparision of various flats/apartments will be  according to user preference in the near future.
-    Users will be able to view Apartments/Flats for buying or rent. Whereas for additional purposes like getting more details about the apartments/flats or getting related information or even Selling any Apartment/Flat they will have to Login/SignIn for authentication.
+    Users will be able to view Apartments/Flats for buying or rent. 
+    Whereas for additional purposes like getting more details about the apartments/flats or getting related information 
+    or even Selling any Apartment/Flat they will have to Login/SignIn for authentication.
 
 2. Backend
     We will use Nodejs as a backend technology where we will be using different APIs, middleware, methods to create a functional website. 
