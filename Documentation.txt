@@ -1,4 +1,4 @@
-FlatFusionHub, a web app project that is based on MERN stack and MLOps!
+FlatFusionHub, a web app project that is based on MERN stack and ML/DL + MLOps!
 In today`s world where Flats/Apartments are difficult to find, this web app will help users to find them even at cheaper rates.
 
 This Project consists of 4 basic components:
@@ -16,40 +16,53 @@ This Project consists of 4 basic components:
 3. Database
     -Database is one of the most important component of any webapp, we will be using MongoDB for database Entries.
     -Tables created will be:
-        APARTMENT/FLAT FOR SALE
-			Entries in db:
-			Entries for predicting rate 
+        APARTMENT/FLAT FOR SELL/RENT
+		Entries in db:
+			Type of User
+			Name
+			Mobile No.
+			Email
+			Property for (sell/rent)
+			Property Type
+			City
+			Locality
+			Furnishing details
+		Entries for predicting rate 
 
-		APARTMENT/FLAT LET OUT FOR RENT
-			Entries in db: 
-				Flat No. 
-				BHK
-				Rent
-				Total Floor
-				Current Floor
-				Area Locality
-				City
-				Furnishing status
-				Preferred Tenants
-				Bathroom
-				Point of contact
-			Entries for predicting rent:
-				BHK	
-				Size
-				Area Locality
-				Current Floor
-				City
-				Furnishing status
-				Preferred tenants
-				Bathroom
+	APARTMENT/FLAT FOR RENT
+		Entries in db: 
+			Flat No. 
+			BHK
+			Rent
+			Total Floor
+			Current Floor
+			Area Locality
+			City
+			Furnishing status
+			Preferred Tenants
+			Bathroom
+			Point of contact
+		Entries for predicting rent:
+			BHK	
+			Size
+			Area Locality
+			Current Floor
+			City
+			Furnishing status
+			Preferred tenants
+			Bathroom
 
-		APARTMENT/FLAT TO BUY
+	APARTMENT/FLAT TO BUY
 			Entries in db:
 			Entries for predicting amount:
 
-		LOGS
-			Entry every time we hit any API.
+	LOGS
+		Entry every time we hit any API:
+			url
+			method
+			ipAddress
 
+<<<<<<< HEAD
 		USER INFORMATION
 			Entries in db:
 				User Type (Owner/Agent/Builder/Buyer/Tenant)
@@ -58,4 +71,17 @@ This Project consists of 4 basic components:
 				Email
 				Phone No.
 4. MLOps
+=======
+	USER INFORMATION
+		Entries in db:
+			Name
+			Age
+			Email
+			Phone No.
+4. Machine Learning/Deep Learning + MLOps
+	-Obtain authentic datasets from Kaggle.
+	-Implement ML/DL algorithms for model training.
+	-Utilize ML Ops for various stages: data preparation, training, evolution, hyperparameter tuning, and deployment.
+	-Leverage libraries such as Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow, and Keras for development.
+>>>>>>> 2f79154a3edc6feb4568ec5c09974c2fc1300e91
 
