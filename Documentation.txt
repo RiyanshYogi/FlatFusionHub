@@ -1,4 +1,4 @@
-FlatFusionHub, a web app project that is based on MERN stack and MLOps!
+FlatFusionHub, a web app project that is based on MERN stack and ML/DL + MLOps!
 In today`s world where Flats/Apartments are difficult to find, this web app will help users to find them even at cheaper rates.
 
 This Project consists of 4 basic components:
@@ -62,12 +62,15 @@ This Project consists of 4 basic components:
 			method
 			ipAddress
 
-		USER INFORMATION
-			Entries in db:
-				User Type (Owner/Agent/Builder/Buyer/Tenant)
-				Name
-				Age
-				Email
-				Phone No.
-4. MLOps
+	USER INFORMATION
+		Entries in db:
+			Name
+			Age
+			Email
+			Phone No.
+4. ML/DL + MLOps
+- Obtain authentic datasets from Kaggle.
+- Implement ML/DL algorithms for model training.
+- Utilize ML Ops for various stages: data preparation, training, evolution, hyperparameter tuning, and deployment.
+- Leverage libraries such as Python, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow, and Keras for development.
 
