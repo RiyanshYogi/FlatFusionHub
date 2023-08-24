@@ -62,26 +62,16 @@ This Project consists of 4 basic components:
 			method
 			ipAddress
 
-<<<<<<< HEAD
-		USER INFORMATION
-			Entries in db:
-				User Type (Owner/Agent/Builder/Buyer/Tenant)
-				Name
-				Age
-				Email
-				Phone No.
-4. MLOps
-=======
 	USER INFORMATION
 		Entries in db:
 			Name
 			Age
 			Email
 			Phone No.
+			
 4. Machine Learning/Deep Learning + MLOps
 	-Obtain authentic datasets from Kaggle.
 	-Implement ML/DL algorithms for model training.
 	-Utilize ML Ops for various stages: data preparation, training, evolution, hyperparameter tuning, and deployment.
 	-Leverage libraries such as Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow, and Keras for development.
->>>>>>> 2f79154a3edc6feb4568ec5c09974c2fc1300e91
 
