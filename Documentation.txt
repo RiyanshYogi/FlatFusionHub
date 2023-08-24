@@ -68,6 +68,7 @@ This Project consists of 4 basic components:
 			Age
 			Email
 			Phone No.
+			
 4. Machine Learning/Deep Learning + MLOps
 	-Obtain authentic datasets from Kaggle.
 	-Implement ML/DL algorithms for model training.
