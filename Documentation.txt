@@ -52,6 +52,7 @@ This Project consists of 4 basic components:
 
 		USER INFORMATION
 			Entries in db:
+				User Type (Owner/Agent/Builder/Buyer/Tenant)
 				Name
 				Age
 				Email
