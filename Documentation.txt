@@ -64,11 +64,12 @@ This Project consists of 4 basic components:
 
 	USER INFORMATION
 		Entries in db:
+			User Type(Agent/Owner/Tenant/Buyer/Builder)
 			Name
 			Age
 			Email
 			Phone No.
-			
+
 4. Machine Learning/Deep Learning + MLOps
 	-Obtain authentic datasets from Kaggle.
 	-Implement ML/DL algorithms for model training.
