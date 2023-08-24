@@ -4,6 +4,11 @@ In today's world where Flats/Apartments are difficult to find, this web app will
 This website let's users
 
 # Tech Used:
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/MERN-logo.png" style="width:400px" alt="">
+  
   ### Frontend
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/MERN-logo.png" style="width:400px" alt="">
+  
   ### Backend
+  ### Database
   ### MLOps
