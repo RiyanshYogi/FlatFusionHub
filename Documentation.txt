@@ -68,9 +68,9 @@ This Project consists of 4 basic components:
 			Age
 			Email
 			Phone No.
-4. ML/DL + MLOps
-- Obtain authentic datasets from Kaggle.
-- Implement ML/DL algorithms for model training.
-- Utilize ML Ops for various stages: data preparation, training, evolution, hyperparameter tuning, and deployment.
-- Leverage libraries such as Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow, and Keras for development.
+4. Machine Learning/Deep Learning + MLOps
+	-Obtain authentic datasets from Kaggle.
+	-Implement ML/DL algorithms for model training.
+	-Utilize ML Ops for various stages: data preparation, training, evolution, hyperparameter tuning, and deployment.
+	-Leverage libraries such as Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow, and Keras for development.
 
