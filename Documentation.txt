@@ -1,5 +1,57 @@
 FlatFusionHub, a web app project that is based on MERN stack and MLOps!
 In today`s world where Flats/Apartments are difficult to find, this web app will help users to find them even at cheaper rates.
 
-We are creating this 
+This Project consists of 4 basic components:
+1. Frontend
+    In this, we will be using React App, with of HTML, CSS and Javascript included.
+    We will be adding Buying, Selling and Renting feature into this webapp, and also comparision of various flats/apartments according to user preference in the near future.
+    Users will be able to view Apartments/Flats for buying or rent. Whereas for additional purposes like getting more details about the apartments/flats or getting related information or even Selling any Apartment/Flat they will have to Login/SignIn for authentication.
+
+2. Backend
+    We will use Nodejs as a backend technology where we will be using different APIs, middleware, methods to create a functional website the authentication functionality will be fulfilled by using JWT(JSONWebToken) and cookies will be used for better User Experience.
+
+3. Database
+    Database is one of the most important component of any webapp, we will be using MongoDB for database Entries.
+    Tables created will be:
+        APARTMENT/FLAT FOR SALE
+			Entries in db:
+			Entries for predicting rate 
+
+		APARTMENT/FLAT LET OUT FOR RENT
+			Entries in db: 
+				Flat No. 
+				BHK
+				Rent
+				Total Floor
+				Current Floor
+				Area Locality
+				City
+				Furnishing status
+				Preferred Tenants
+				Bathroom
+				Point of contact
+			Entries for predicting rent:
+				BHK	
+				Size
+				Area Locality
+				Current Floor
+				City
+				Furnishing status
+				Preferred tenants
+				Bathroom
+
+		APARTMENT/FLAT TO BUY
+			Entries in db:
+			Entries for predicting amount:
+
+		LOGS
+			Entry every time we hit any API.
+
+		USER INFORMATION
+			Entries in db:
+				Name
+				Age
+				Email
+				Phone No.
+4. MLOps
 
