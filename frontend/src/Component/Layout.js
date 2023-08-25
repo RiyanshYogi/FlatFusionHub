@@ -1,5 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 import './Layout.css';
+import './dashboard.css';
 const Layout = () => {
     return (
         <>
@@ -17,8 +18,42 @@ const Layout = () => {
                 </div>
             </header>
             <Outlet />
-            <div className="container">
-                    <div>dashboard</div>
+            <div className="dashboard-links">
+
+            </div>
+            <div className="content">
+
+                <div className="container">
+                    <div>first</div>
+                    <div>second</div>
+                    <div>third</div>
+                    <div>fourth</div>
+                    <div>fifth</div>
+                    <div>sixth</div>
+                    <div>seventh</div>
+                    <div>eigth</div>
+                    <div>ninth</div>
+                    <div>tenth</div>
+                    <div>tenth</div>
+                    <div>tenth</div>
+                    <div>tenth</div>
+                    <div>tenth</div>
+                </div>
+                <div className="side-container">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div className="footer">
+                
             </div>
         </>
     )
