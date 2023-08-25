@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
@@ -67,3 +68,29 @@ function App() {
 }
 
 export default App
+=======
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Layout from './Component/Layout';
+import Login from './Component/Login';
+import Logout from './Component/Logout';
+import Signup from './Component/Signup';
+import Nopage from './Component/Nopage';
+
+function App() {
+  return (
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Layout />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/logout' element={<Logout />} />
+          <Route path='/signup' element={<Signup />} />
+          <Route path='*' element={<Nopage />} />
+        </Routes>
+      </BrowserRouter>
+    </>
+  )
+}
+
+export default App;
+>>>>>>> 48e9864cd2d0395f0bfc8349344d7c5570a7a4fa

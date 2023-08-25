@@ -1,5 +1,11 @@
 {
   "dependencies": {
+<<<<<<< HEAD
     "express": "^4.18.2"
+=======
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mysql": "^2.18.1"
+>>>>>>> 48e9864cd2d0395f0bfc8349344d7c5570a7a4fa
   }
 }
