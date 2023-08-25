@@ -1,0 +1,107 @@
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    /* background-position: center; */
+    background: url('./images/house3.jpg') no-repeat;
+    background-size: cover;
+}
+
+.login-div {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    box-shadow: 20px 10px 15px;
+    border-radius: 0px 50px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+.inputbox {
+    text-align: center;
+}
+
+.inputbox ion-icon {
+    float: left;
+    width: 50px;
+    height: 30px;
+    color: #f0f0f9;
+}
+
+.inputbox label {
+    float: left;
+    font-size: 1.5em;
+    margin: 0 10px;
+    position: relative;
+    bottom: 5px;
+    color: #fff;
+}
+.inputbox input {
+    align-self: center;
+    width: 90%;
+    border-radius: 50px;
+    height: 35px;
+    padding: 0 10px 0 10px;
+    background-color: #f0f0f9;
+    border: none;
+}
+
+.btn {
+    text-align: center;
+    border: none;
+}
+.btn button {
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: green;
+}
+
+.forget {
+    font-size: 0.9em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.forget label input {
+    margin-right: 3px;
+}
+.forget label a {
+    color: #fff;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.forget label a:hover {
+    text-decoration: underline;
+}
+
+.register p a {
+    margin: 10px;
+}
+.register p {
+    color: #fff;
+}
+
+.register a {
+    text-decoration: none;
+    color: #fff;
+}
+.register a:hover {
+    text-decoration: underline;
+}
