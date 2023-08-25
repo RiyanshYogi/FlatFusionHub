@@ -1,0 +1,78 @@
+FlatFusionHub, a web app project that is based on MERN stack and ML/DL + MLOps!
+In today`s world where Flats/Apartments are difficult to find, this web app will help users to find them even at cheaper rates.
+
+This Project consists of 4 basic components:
+1. Frontend
+    -In this, we will be using React App, with of HTML, CSS and Javascript included.
+    -We will be adding Buying, Selling and Renting feature into this webapp.
+    -Also comparision of various flats/apartments will be  according to user preference in the near future.
+    -Users will be able to view Apartments/Flats for buying or rent. 
+    -Whereas for additional purposes like getting more details about the apartments/flats or getting related information or even Selling any Apartment/Flat they will have to Login/SignIn for authentication.
+
+2. Backend
+    -We will use Nodejs as a backend technology where we will be using different APIs, middleware, methods to create a functional website. 
+    -The authentication functionality will be fulfilled by using JWT(JSONWebToken) and cookies will be used for better User Experience.
+
+3. Database
+    -Database is one of the most important component of any webapp, we will be using MongoDB for database Entries.
+    -Tables created will be:
+        APARTMENT/FLAT FOR SELL/RENT
+		Entries in db:
+			Type of User
+			Name
+			Mobile No.
+			Email
+			Property for (sell/rent)
+			Property Type
+			City
+			Locality
+			Furnishing details
+		Entries for predicting rate 
+
+	APARTMENT/FLAT FOR RENT
+		Entries in db: 
+			Flat No. 
+			BHK
+			Rent
+			Total Floor
+			Current Floor
+			Area Locality
+			City
+			Furnishing status
+			Preferred Tenants
+			Bathroom
+			Point of contact
+		Entries for predicting rent:
+			BHK	
+			Size
+			Area Locality
+			Current Floor
+			City
+			Furnishing status
+			Preferred tenants
+			Bathroom
+
+	APARTMENT/FLAT TO BUY
+			Entries in db:
+			Entries for predicting amount:
+
+	LOGS
+		Entry every time we hit any API:
+			url
+			method
+			ipAddress
+
+	USER INFORMATION
+		Entries in db:
+			User Type(Agent/Owner/Tenant/Buyer/Builder)
+			Name
+			Age
+			Email
+			Phone No.
+
+4. Machine Learning/Deep Learning + MLOps
+	-Obtain authentic datasets from Kaggle.
+	-Implement ML/DL algorithms for model training.
+	-Utilize ML Ops for various stages: data preparation, training, evolution, hyperparameter tuning, and deployment.
+	-Leverage libraries such as Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow, and Keras for development.
+
