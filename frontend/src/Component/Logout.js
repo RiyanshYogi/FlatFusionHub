@@ -12,10 +12,13 @@ const Logout = () => {
                         <a href="#" target="_blank"><Link to={"/"} >Dashboard</Link></a>
                     </div>
                     <div>
-                        <a href="#" target="_blank"><Link to={"/login"} >Login</Link></a>
+                        <a href="#" target="_blank"><Link to={"/login"} >login</Link></a>
                     </div>
                     <div>
-                        <a href="#" target="_blank"><Link to={"/signup"} >Signup</Link></a>
+                        <a href="#" target="_blank"><Link to={"/signup"} >signup</Link></a>
+                    </div>
+                    <div>
+                        <a href="#" target="_blank"><Link to={"/logout"} >logout</Link></a>
                     </div>
                 </div>
             </header>
