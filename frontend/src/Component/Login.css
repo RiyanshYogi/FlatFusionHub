@@ -19,7 +19,7 @@ section {
     justify-content: space-evenly;
     position: relative;
     background: transparent;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(15px);
     text-align: center;
     box-shadow: 20px 10px 15px;
     border-radius: 0px 50px;
@@ -57,7 +57,6 @@ h2 {
     height: 35px;
     padding: 0 10px 0 10px;
     background-color: #f0f0f9;
-    border: none;
 }
 
 .btn {

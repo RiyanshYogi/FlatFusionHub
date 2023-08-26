@@ -7,6 +7,9 @@ const Layout = () => {
             <header>
                 <div class="headerLinks">
                     <div>
+                        <a href="#" target="_blank"><Link to={"/"} >Dashboard</Link></a>
+                    </div>
+                    <div>
                         <a href="#" target="_blank"><Link to={"/login"} >login</Link></a>
                     </div>
                     <div>
@@ -53,7 +56,7 @@ const Layout = () => {
                 </div>
             </div>
             <div className="footer">
-                
+
             </div>
         </>
     )
