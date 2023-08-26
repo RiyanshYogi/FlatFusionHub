@@ -27,3 +27,13 @@ header {
     color: rgba(0, 0, 0, 0.6);
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+
+.error {
+    /* border-color: red; */
+    border: 2px solid red;
+}
+.ok {
+    /* border-color: green; */
+    border: 2px solid green;
+}
+

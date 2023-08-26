@@ -6,15 +6,12 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-<<<<<<< HEAD
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-=======
+    "axios": "^1.4.0",
     "bootstrap": "^5.3.1",
     "react": "^18.2.0",
+    "react-cookie": "^6.1.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.15.0",
->>>>>>> 48e9864cd2d0395f0bfc8349344d7c5570a7a4fa
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
