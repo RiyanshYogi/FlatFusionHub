@@ -1,12 +1,16 @@
-const connectionMongo = require('mongoose');
+const MongoClient = require('mongodb').MongoClient;
 
-const url ="mongodb://localhost:27017/Property";
+const url = "mongodb://0.0.0.0:27017";
+const databaseName = "Property";
 
-connectionMongo.connect(url, function(err, db){
-    if(err){
-        console.error('Error connecting to the MongoDB:', err);
-    }
-    else{
-        console.log("Connected to MongoDB");
-    }
-})
+MongoClient.connect(url, { useNewUrlParser: true }, (error, client) => {
+  if (error) {
+    return console.log("Connection failed for some reason");
+  }
+  console.log("Connection established - All well");
+  const db = client.db(databaseName);
+});
+  
+
+
+
