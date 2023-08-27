@@ -15,7 +15,9 @@ In today's world where Flats/Apartments are difficult to find, this web app will
 <img src="/assets/mongodb.png" style="width:120px" alt="">
 
 ### MLOps
-<img src="/assets/MLOps.png"  alt="">
+<img src="/assets/MLOps.png" style="width:120px" alt="">
+
+
 
 ### ML-DL Integration
 <img src="/assets/MLDL.png" style="width:120px" alt="">
