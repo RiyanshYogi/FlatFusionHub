@@ -33,8 +33,8 @@ const Logout = () => {
             </header>
             <section>
 
-                <div className="login-div">
                     <h2>Logout</h2>
+                <div className="login-div">
 
                     <div className="btn">
                         <h3>User Logout Successfully</h3>

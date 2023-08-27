@@ -1,5 +1,6 @@
 
 section {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,29 +11,48 @@ section {
     background: url('./images/house3.jpg') no-repeat;
     background-size: cover;
 }
+h2 {
+    position: absolute;
+    top: 40px;
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
 
 .login-div {
-    width: 500px;
-    height: 400px;
+    width: 550px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     position: relative;
     background: transparent;
     backdrop-filter: blur(15px);
-    text-align: center;
     box-shadow: 20px 10px 15px;
     border-radius: 0px 50px;
+    text-align: center;
 }
 
-h2 {
-    font-size: 2em;
-    color: #fff;
-    text-align: center;
+.type_class {
+        margin-bottom: 10px;
+}
+.type_class input {
+    margin-right: 10px;
+}
+.type_class label {
+    margin-right: 5px;
+}
+.type_class ion-icon {
+    float: left;
+    color: #f0f0f9;
+    width: 50px;
+    height: 30px;
+    margin-bottom: 5px;
 }
 
 .inputbox {
     text-align: center;
+    margin-bottom: 5px;
 }
 
 .inputbox ion-icon {
@@ -62,6 +82,7 @@ h2 {
 .btn {
     text-align: center;
     border: none;
+    margin: 5px 0 5px 0;
 }
 .btn button {
     width: 100px;
@@ -75,6 +96,7 @@ h2 {
     color: #fff;
     display: flex;
     justify-content: center;
+    margin-bottom: 5px;
 }
 
 .forget label input {
@@ -104,3 +126,4 @@ h2 {
 .register a:hover {
     text-decoration: underline;
 }
+

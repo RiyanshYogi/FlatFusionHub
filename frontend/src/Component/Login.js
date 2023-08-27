@@ -9,14 +9,15 @@ import { Outlet, Link } from "react-router-dom";
 const Login = () => {
 
 
-    const [username, setUsername] = useState("");
+
+    const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [cookies, setCookies] = useCookies(['token']);
     const [msg, setMsg] = useState("");
 
     const handleLogin = async () => {
-        const response = await axios.post('http://localhost:8080/login', {
-            username,
+        const response = await axios.post('http://localhost:3000/login', {
+            email,
             password
         })
             .then(resp => {
@@ -26,7 +27,7 @@ const Login = () => {
                 setCookies('token', resp.data.token, { path: '/', expires })
             })
             .catch(error => {
-                setMsg("Invalid username or password");
+                setMsg("Invalid email or password");
             });
 
     }
@@ -51,13 +52,13 @@ const Login = () => {
             </header>
             <section>
 
+                <h2>Login</h2>
 
                 <div className="login-div">
-                    <h2>Login</h2>
                     <div className="inputbox" >
                         <ion-icon name="mail-outline"></ion-icon>
-                        <label>Username/Email</label>
-                        <input value={username} onChange={e => setUsername(e.target.value)} required />
+                        <label>Email</label>
+                        <input type='email' value={email} onChange={e => setEmail(e.target.value)} required />
                     </div>
                     <div className="inputbox" >
                         <ion-icon name="lock-closed-outline"></ion-icon>

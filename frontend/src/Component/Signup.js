@@ -7,14 +7,20 @@ import { Outlet, Link } from "react-router-dom";
 
 const Signup = () => {
 
+    const [email, setEmail] = useState("");
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
+    const [mobile, setMobile] = useState("");
+    const [type, setType] = useState("");
     const [msg, setMsg] = useState("");
 
     const handleRegister = async () => {
-        const response = await axios.post('http://localhost:8080/users', {
+        const response = await axios.post('http://localhost:3000/users', {
+            type,
             username,
-            password
+            email,
+            password,
+            mobile
         })
             .then(resp => {
                 setMsg("Registration successfully.");
@@ -43,14 +49,38 @@ const Signup = () => {
                 </div>
             </header>
             <section>
-
-
+                <h2>Signup</h2>
                 <div className="login-div">
-                    <h2>Signup</h2>
+
+                    <div className='type_class'>
+                        <ion-icon name="medal-outline"></ion-icon>
+                        <label>Type</label>
+                        <input type='checkbox' name='type' value={type} onChange={e => setType(e.target.value)} required /> 
+                        <label>Type</label>
+                        <input type='checkbox' name='type' value={type} onChange={e => setType(e.target.value)} required /> 
+                        <label>Type</label>
+                        <input type='checkbox' name='type' value={type} onChange={e => setType(e.target.value)} required /> 
+                        <label>Type</label>
+                        <input type='checkbox' name='type' value={type} onChange={e => setType(e.target.value)} required /> 
+                        <label>Type</label>
+                        <input type='checkbox' name='type' value={type} onChange={e => setType(e.target.value)} required /> 
+                        <label>Type</label>
+                        <input type='checkbox' name='type' value={type} onChange={e => setType(e.target.value)} required /> 
+                    </div>
+                    <div className='inputbox'>
+                        <ion-icon name="person-outline"></ion-icon>
+                        <label>Name</label>
+                        <input type='text' name='username' value={username} onChange={e => setUsername(e.target.value)} required />
+                    </div>
                     <div className="inputbox" >
                         <ion-icon name="mail-outline"></ion-icon>
-                        <label>Username/Email</label>
-                        <input type='text' name='username' value={username} onChange={e => setUsername(e.target.value)} required />
+                        <label>Email</label>
+                        <input type='email' name='email' value={email} onChange={e => setEmail(e.target.value)} required />
+                    </div>
+                    <div className="inputbox" >
+                        <ion-icon name="call-outline"></ion-icon>
+                        <label>Mobile</label>
+                        <input type='number' name='mobile' value={mobile} onChange={e => setMobile(e.target.value)} required />
                     </div>
                     <div className="inputbox" >
                         <ion-icon name="lock-closed-outline"></ion-icon>
