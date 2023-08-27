@@ -5,12 +5,6 @@ In today's world where Flats/Apartments are difficult to find, this web app will
 ## Tech Used:
   <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/MERN-logo.png" style="width:400px" alt="">
   
-<<<<<<< HEAD
-  ### Frontend
-  ### Backend
-  ### Database
-  ### MLOps
-=======
 ### Frontend
 <img src="/assets/react.png" style="width:60px" alt=""><img src="/assets/frontend.png" style="width:180px" alt="">
 
@@ -21,4 +15,3 @@ In today's world where Flats/Apartments are difficult to find, this web app will
 <img src="/assets/mongodb.png" style="width:120px" alt="">
 
 ### MLOps
->>>>>>> 48e9864cd2d0395f0bfc8349344d7c5570a7a4fa
