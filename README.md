@@ -5,7 +5,19 @@ In today's world where Flats/Apartments are difficult to find, this web app will
 ## Tech Used:
   <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/MERN-logo.png" style="width:400px" alt="">
   
-  ### Frontend
-  ### Backend
-  ### Database
-  ### MLOps
+### Frontend
+<img src="/assets/react.png" style="width:60px" alt=""><img src="/assets/frontend.png" style="width:180px" alt="">
+
+### Backend
+<img src="/assets/nodejs.png" style="width:120px" alt="">
+
+### Database
+<img src="/assets/mongodb.png" style="width:120px" alt="">
+
+### MLOps
+<img src="/assets/MLOps.png" style="width:120px" alt="">
+
+
+
+### ML-DL Integration
+<img src="/assets/MLDL.png" style="width:120px" alt="">

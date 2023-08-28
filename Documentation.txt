@@ -14,7 +14,7 @@ This Project consists of 4 basic components:
     -The authentication functionality will be fulfilled by using JWT(JSONWebToken) and cookies will be used for better User Experience.
 
 3. Database
-    -Database is one of the most important component of any webapp, we will be using MongoDB for database Entries.
+    -Database is one of the most important component of any webapp, we will be using MongoDB and mySQL for database Entries.
     -Tables created will be:
         APARTMENT/FLAT FOR SELL/RENT
 		Entries in db:
