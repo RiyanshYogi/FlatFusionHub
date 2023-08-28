@@ -56,7 +56,9 @@ const Layout = () => {
                 </div>
             </div>
             <div className="footer">
-
+                    <div>footer1</div>
+                    <div>footer2</div>
+                    <div>footer3</div>
             </div>
         </>
     )
